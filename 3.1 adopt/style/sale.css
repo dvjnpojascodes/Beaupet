@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff3e3;
+}
+
+/* Navbar  */
+.navbar li
+{
+	font-weight: bold;
+
+}
+
+.navbar-brand img{
+	width: 60px;
+	height: auto;
+	margin: 0 2px 0 100px;
+}
+
+.search{
+	background-color: rgb(240, 226, 223);
+	border-style: none;
+
+	border-radius: 20px 0px 0px 20px;
+	height: 27px;
+}
+.btn-search{
+  padding: 3px;
+  border-radius: 0px 20px 20px 0px;
+  height: 27px;
+  width: 50px;
+  background-color: rgb(240, 226, 223);
+  margin-left: -10px;
+}
+.nav-icons :hover
+{	
+	color: black;
+	cursor: pointer;
+}
+
+  
+.desc {
+  margin-top: 5em;
+  margin-bottom: 2em;
+  position: relative;
+  width: 66vw;
+
+}
+.desc p {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+
+select {
+  width: 15em;
+  height: 2em;
+  padding: 2px;
+}
+
+/* Pagination */
+
+/* Card Pagination  */
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  
+  .card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 90px;
+  }
+  
+  .card{
+    position: relative;
+    max-width: 325px;
+    width: 300px;
+    height: auto;
+    margin: 25px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff3e3;
+    border: none;
+    margin-bottom: 2em;
+  }
+
+
+  .card-image{
+    max-height: 500px;
+  }
+  
+  .card-image img{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-info{
+    position: relative;
+    top: .3em;
+    color: #222;
+    padding: 10px 0;
+    margin-left: 10px;
+  }
+  
+  .card-info h6{
+    font-size: 1.1em;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+  
+  .card-info p{
+    font-size: .9em;
+    line-height: 6px;
+  }
+  
+  .pagination{
+    text-align: center;
+    user-select: none;
+    position: relative;
+    left: -24em;
+}
+
+.pagination li{
+    display: inline-block;
+    margin: 5px;        
+  }
+  
+  .pagination li a{
+    color: rgb(63, 32, 32);
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 15px;
+  }
+
+  
+  .previous-page, .next-page{
+    width: 40px;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .previous-page:hover{
+    transform: translateX(-5px);
+  }
+  
+  .next-page:hover{
+    transform: translateX(5px);
+  }
+
+  .page-item .active.page-link {
+    border: 1 px solid black;
+ }
+  
+  .current-page, .dots{
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+
+  .disable{
+    background: #ccc;
+  }
+
+
+ul li {
+  list-style-type: none;
+}
+  /*---------------footer---------------------*/
+
+  .footer {
+      background-color: #f2dbbc;
+  }
+
+  .fab {
+      font-size: 2em;
+      padding: 0 15px
+  }
+
+  .links ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+  }
+
+  .links li {
+    padding: 0 15px
+  }
+
+  .footer a {
+        color: #000;
+        text-decoration: none;
+        transition: .7s;
+  }
+
+.footer a:hover {
+    font-weight: bold;
+}
+
+  .copyright {
+      padding-top: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: #1e140d;
+      color: white;
+      font-size: 14px;
+  }
+
+  /* media query */
+
+@media screen and (max-width:700px) {
+
+    .pagination{
+      text-align: center;
+      user-select: none;
+      position: relative;
+      right: 0;
+  }
+} 
+
+@media screen and (max-width:500px) {
+
+    .desc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc select {
+        margin-right: 10em;
+    }
+
+    .fab {
+        font-size: 1em;
+        padding: 0 15px
+    }
+
+    .links ul{
+        display: flex;
+        flex-direction: column;
+     }
+
+     .r-second {
+        margin-top:-6em;
+    }
+}

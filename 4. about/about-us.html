@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <!--    FONTS     -->
+    <link rel="stylesheet" href="fonts/Brice-BoldSemiExpanded/style.css" class="fonts">
+    <link rel="stylesheet" href="fonts/Brice-SemiBold/style.css" class="fonts">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ 
+     <!--    BOOTSTRAP    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
+    <!--    STYLE     -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="style.css" class="css">
+
+   
+</head>
+<body>
+
+      <!----------------navbar------------>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+          </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item  ">
+                <a class="nav-link px-5 my-4" href="/Homepage.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-5 my-4" href="../2. Shop/shop.html">Shop</a>
+              </li>
+
+             <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle px-5 my-4" href="../3. Services/services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="../3. Services/services.html">Our Services</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../3.1 adopt/adopt.html">Adopt Now</a>
+                  <a class="dropdown-item" href="../3.2 sale/sale.html">Buy</a>
+                  <a class="dropdown-item" href="../3.3 grooming/grooming.html">Grooming</a>
+              </div>
+                </li>
+
+              <li class="nav-item active">
+                <a class="nav-link px-5 my-4" href="../4. about/about-us.html">About Us</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ">
+              <input class="form-control mr-sm-2 search" style="width: 250px;" type="search" aria-label="Search">
+               <button class="btn btn-search  my-2 my-sm-0" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg></button>
+              
+            </form>
+
+              <ul  class="navbar-nav ">
+            <li class="nav-item ">
+                        <a class="nav-link mr-5 ml-5 nav-icons " href="../5. cart/shopcart.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg></a>
+
+
+                  </li>
+
+                   <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle mr-5 px-5" href="../6. log/LOGIN.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-person-fill" viewBox="0 0 16 16"> <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg></a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="../6. log/LOGIN.html">Login</a>
+                          <a class="dropdown-item" href="../6.1 sign/signup.html">Sign Up</a>
+                       </div>
+                  </li>
+        </div>
+      </nav>
+    <!----------------navbar------------>
+
+
+    <!--    MISSION     -->
+    <div class="container my-5">
+        <div class="mission my-5 px-5 text-center">
+                <h1 class="text-uppercase my-md-5 my-sm-3 header">Mission</h1>
+                <p class="my-3">By providing outstanding pet care, peace of mind, trust, and security, 
+                    we hope to enrich the lives of pets and their owners. By offering a 
+                    variety of economical pet care services, we hope to become the preferred 
+                    choice for alternative pet care solutions. Our devoted and experienced 
+                    staff will provide a secure, pleasant, and loving environment for your 
+                    pets while providing you, your pet, and your family with the highest 
+                    quality and personalized experience possible.</p>
+        </div>
+    </div>
+    
+    <!--    END OF MISSION     -->
+    
+
+    <!--    VISION     -->
+    <div class="container my-5">
+        <div class="vision my-5 px-5 text-center">
+                <h1 class="text-uppercase my-md-5 my-sm-3 header">vision</h1>
+                <p class="my-3">To be the industry experts and pet parents' first option in Philippines. 
+                    We will accomplish this by utilizing the expertise, knowledge, and experience of our 
+                    professional, knowledgeable, and experienced employees to provide value and care to 
+                    our services.</p>
+        </div>
+    </div>
+    <!--    END OF VISION     -->
+
+    <!--    TEAM    -->
+
+    <div class="team container-fluid justify-content-center">
+        <div class="my-5 px-5 text-center">
+            <h1 class="text-uppercase my-md-5 my-sm-3 header">the team</h1>    
+        </div>
+        <div class="container d-md-flex text-center my-md-5">
+            <div class="col-md-4 p-auto my-5 my-md-0" data-aos="fade-up">
+                <img src="images/Our team edited/Judy.png" alt="Bola-img" class="w-75">
+                <h4 class="pt-3">Bola, Judy Mae</h4>
+                <h5>Business Analyst/</h5>
+                <h5>Front-end Developer</h5>
+            </div>
+            <div class="col-md-4 p-auto my-5 my-md-0" data-aos="fade-up">
+                <img src="images/Our team edited/Devie.png" alt="Bola-img" class="w-75">
+                <h4 class="pt-3">Pojas, Devie Jane</h4>
+                <h5>Junior Fullstack Developer</h5>
+            </div>
+            <div class="col-md-4 p-auto my-5 my-md-0" data-aos="fade-up">
+                <img src="images/Our team edited/Shane.png" alt="Bola-img" class="w-75">
+                <h4 class="pt-3">Mendoza, Shane Kyra</h4>
+                <h5>Senior Fullstack Developer</h5>
+            </div>
+        </div>
+        <div class="container d-md-flex text-center my-md-5">
+            <div class="col-md-4 p-md-auto my-3 my-md-0" data-aos="fade-up">
+                <img src="images/Our team edited/Queenie.png" alt="Bola-img" class="w-75">
+                <h4 class="pt-3">Boleche, Queenie Lyn</h4>
+                <h5>UI/UX Designer/</h5>
+                <h5>Graphic Designer</h5>
+            </div>
+            <div class="col-md-4 p-auto my-3 my-md-0" data-aos="fade-up">
+                <img src="images/Our team edited/Ana.png" alt="Bola-img" class="w-75">
+                <h4 class="pt-3">Lachica, Anna Fe</h4>
+                <h5>Front-end Developer/</h5>
+                <h5>QA Tester</h5>
+            </div>
+            <div class="col-md-4 p-auto my-3 my-md-0" data-aos="fade-up">
+                <img src="images/Our team edited/Merwin.png" alt="Bola-img" class="w-75">
+                <h4 class="pt-3">Moreno, Merwin Jasper</h4>
+                <h5>UI/UX Designer</h5>
+                <h5>Graphic Designer</h5>
+            </div>
+        </div>
+    </div>
+    <!--    END OF TEAM     -->
+
+
+    <footer>
+        <div class="container-fluid p-0">
+            <div class=" justify-content-center ">
+    
+              <div>
+                <footer>
+                  <div class="footer-basic">
+                    <img src="images/logo.png" style="width: 100px; height: 100px; margin-bottom: 30px; ">
+                    <div class="social">
+                          <a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a>
+                          <a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a>
+                          <a href="https://www.snapchat.com/"><i class="icon ion-social-snapchat"></i></a>
+                          <a href="https://twitter.com/?lang=en"><i class="icon ion-social-twitter"></i></a>
+                  </div>
+                   <div class="social-links">
+                          <a href="#">Home</a>
+                          <a href="#">About</a>
+                          <a href="#">Shop</a>
+                          <a href="#">Contact Us</a>
+                        </div>
+    
+                  </div>
+                  <div class="w-100"></div>
+                  <div class="footer-basic" style="  background-color:  #1e140d;">
+                        <p class="copyright">Beaupet &#169; 2021</p>
+                </footer>
+              </div>
+              </div>
+          </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+          offset: 300,
+          duration: 700
+        });
+    </script>
+
+</body>
+</html>

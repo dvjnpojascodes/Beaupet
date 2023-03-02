@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+  	<link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+<title> Shop - Beaupets</title>
+
+</head>
+
+<body>
+
+<!----------------navbar------------>
+    	<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+          </button>
+
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item  ">
+                <a class="nav-link px-5 my-4" href="/Homepage.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link px-5 my-4" href="../2. Shop/shop.html">Shop</a>
+              </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle px-5 my-4" href="../3. Services/services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="../3. Services/services.html">Our Services</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../3.1 adopt/adopt.html">Adopt Now</a>
+                  <a class="dropdown-item" href="../3.2 sale/sale.html">Buy</a>
+                  <a class="dropdown-item" href="../3.3 grooming/grooming.html">Grooming</a>
+              </div>
+                </li>
+
+
+
+
+              <li class="nav-item">
+                      <a class="nav-link px-5 my-4" href="../4. about/about-us.html">About Us</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ">
+              <input class="form-control mr-sm-2 search" style="width: 250px;" type="search" aria-label="Search">
+               <button class="btn btn-search  my-2 my-sm-0" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        		  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        		</svg></button>
+              
+            </form>
+
+              <ul  class="navbar-nav ">
+          	<li class="nav-item ">
+                       
+                        <a class="nav-link mr-5 ml-5 nav-icons " href="../5. cart/shopcart.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+      					  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+      					</svg></a>
+
+
+                  </li>
+
+                   <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle mr-5 px-5" href="../6. log/LOGIN.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class=" bi bi-person-fill" viewBox="0 0 16 16"> <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg></a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="../6. log/LOGIN.html">Login</a>
+                          <a class="dropdown-item" href="../6.1 sign/signup.html">Sign Up</a>
+                       </div>
+                  </li>
+          </ul>
+        </div>
+      </nav>
+<!----------------navbar------------>
+	
+
+	
+	<div class="container">
+		
+			<div class="pet-supplies py-5">
+				<div class="row">
+					<div class="col-md-8 ">
+						<h2>Pet Supplies</h2>
+					</div>
+					<div class=" col-md-4 pet2 px-5">
+						<select>
+							<option>Default Sorting</option>
+							<option>Sort by price</option>
+							<option>Sort by popularity</option>
+							<option>Sort by rating</option>
+							<option>Sort by sale</option>
+						</select>
+					</div>
+				</div>
+			</div>
+
+				<div class="row justify-content-center">
+							<div class="col-md-3">
+								<img src="images/dogfood.png" class="img-fluid">
+								<h4> Pedigree Vital Protector</h4>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i>
+								</div>
+								<del>PHP 999. 99</del>
+								<p> PHP 699.00</p>
+							</div>
+							<div class="col-md-3">
+								<img src="images/catfood.png" class="img-fluid">
+								<h4> Meow Mix Seafood Medley</h4>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+								<del>PHP 899. 99</del>
+								<p> PHP 499.00</p>
+							</div>
+							<div class="col-md-3">
+								<img src="images/birdfood.png"class="img-fluid" >
+								<h4> Nature Plan Canary Food</h4>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i>
+								</div>
+								<del>PHP 699. 99</del>
+								<p> PHP 499.00</p>
+							</div>
+							<div class="col-md-3">
+								<img src="images/calmingchews.png" class="img-fluid">
+								<h4> Sentry Calming Chews</h4>
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+								<del>PHP 399. 99</del>
+								<p> PHP 299.00</p>
+							</div>
+		     	</div>
+
+     				<div class=" pagination" style="display: flex;">
+		              <li class="page-item previous-page disable"><a class="page-link" href="#">←</a></li>
+		              <li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
+		              <li class="page-item current-page"><a class="page-link" href="#">2</a></li>
+		              <li class="page-item current-page"><a class="page-link" href="#">3</a></li>
+		              <li class="page-item current-page"><a class="page-link" href="#">4</a></li>
+		              <li class="page-item next-page"><a class="page-link" href="#">&#8594;</a></li>
+		          </div>
+  	</div>
+
+  	<div class="container">
+  		
+			<div class="pet-supplies py-5">
+				<div class="row">
+					<div class="col-md-8 ">
+						<h2>Pet Accessories</h2>
+					</div>
+					<div class=" col-md-4 pet2 px-5">
+						<select>
+							<option>Default Sorting</option>
+							<option>Sort by price</option>
+							<option>Sort by popularity</option>
+							<option>Sort by rating</option>
+							<option>Sort by sale</option>
+						</select>
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+	
+				<div class="col-md-3 ">
+					<img src="images/dogvestharness.png" class="img-fluid">
+					<h4> Cozy Flannel Dog Vest Harness</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+					</div>
+					<del>PHP 1999. 99</del>
+					<p> PHP 1399.00</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/discdogtoy.png" class="img-fluid">
+					<h4> Kong-Air Dog Squeaker Disc Dog Toy</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<del>PHP 399. 99</del>
+					<p> PHP 199.00</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/catlitter.png"class="img-fluid" >
+					<h4> Tidy Cats® Breeze® Original Litter Box System</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+					</div>
+					<del>PHP 1599. 99</del>
+					<p> PHP 1299.00</p>
+				</div>
+				<div class="col-md-3 ">
+					<img src="images/catlaser.png" class="img-fluid">
+					<h4> Kong Cat Toy Laser Pointer</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<del>PHP 399. 99</del>
+					<p> PHP 199.00</p>
+				</div>
+			</div>	
+
+			<div class=" pagination" style="display: flex;">
+		              <li class="page-item previous-page disable"><a class="page-link" href="#">←</a></li>
+		              <li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
+		              <li class="page-item current-page"><a class="page-link" href="#">2</a></li>
+		              <li class="page-item current-page"><a class="page-link" href="#">3</a></li>
+		              <li class="page-item current-page"><a class="page-link" href="#">4</a></li>
+		              <li class="page-item next-page"><a class="page-link" href="#">&#8594;</a></li>
+		          </div>
+
+
+	</div>
+
+  		
+  
+			
+			
+
+			
+		
+	
+<!----------------footer------------>
+      	<br>
+		<br>
+		<br>
+		<br>
+      <div class="container-fluid m-0 p-0">
+        <div class=" justify-content-center ">
+
+          <div>
+            <footer>
+              <div class="footer-basic">
+                <img src="images/logo.png" style="width: 100px; height: 100px; margin-bottom: 30px; ">
+                <div class="social">
+                      <a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a>
+                      <a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a>
+                      <a href="https://www.snapchat.com/"><i class="icon ion-social-snapchat"></i></a>
+                      <a href="https://twitter.com/?lang=en"><i class="icon ion-social-twitter"></i></a>
+              </div>
+               <div class="social-links">
+                      <a href="#">Home</a>
+                      <a href="#">About</a>
+                      <a href="#">Shop</a>
+                      <a href="#">Contact Us</a>
+                    </div>
+
+              </div>
+              <div class="w-100"></div>
+              <div class="footer-basic" style="  background-color:  #1e140d;">
+                    <p class="copyright">Beaupet &#169; 2021</p>
+            </footer>
+          </div>
+          </div>
+      </div>
+<!----------------footer------------>
+
+
+   
+    <!-- PAGINATION JS CODE -->
+    <script type="text/javascript">
+      function getPageList(totalPages, page, maxLength){
+  function range(start, end){
+    return Array.from(Array(end - start + 1), (_, i) => i + start);
+  }
+
+  var sideWidth = maxLength < 9 ? 1 : 3;
+  var leftWidth = (maxLength - sideWidth * 3 - 3) >> 1;
+  var rightWidth = (maxLength - sideWidth * 3 - 3) >> 1;
+
+  if(totalPages <= maxLength){
+    return range(1, totalPages);
+  }
+
+  if(page <= maxLength - sideWidth - 1 - rightWidth){
+    return range(1, maxLength - sideWidth - 1).concat(0, range(totalPages - sideWidth + 1, totalPages));
+  }
+
+  if(page >= totalPages - sideWidth - 1 - rightWidth){
+    return range(1, sideWidth).concat(0, range(totalPages- sideWidth - 1 - rightWidth - leftWidth, totalPages));
+  }
+
+  return range(1, sideWidth).concat(0, range(page - leftWidth, page + rightWidth), 0, range(totalPages - sideWidth + 1, totalPages));
+}
+
+$(function(){
+  var numberOfItems = $(".card-content .card").length;
+  var limitPerPage = 6; //How many card items visible per a page
+  var totalPages = Math.ceil(numberOfItems / limitPerPage);
+  var paginationSize = 7; //How many page elements visible in the pagination
+  var currentPage;
+
+  function showPage(whichPage){
+    if(whichPage < 1 || whichPage > totalPages) return false;
+
+    currentPage = whichPage;
+
+    $(".card-content .card").hide().slice((currentPage - 1) * limitPerPage, currentPage * limitPerPage).show();
+
+    $(".pagination li").slice(1, -1).remove();
+
+    getPageList(totalPages, currentPage, paginationSize).forEach(item => {
+      $("<li>").addClass("page-item").addClass(item ? "current-page" : "dots")
+      .toggleClass("active", item === currentPage).append($("<a>").addClass("page-link")
+      .attr({href: "javascript:void(0)"}).text(item || "...")).insertBefore(".next-page");
+    });
+
+    $(".previous-page").toggleClass("disable", currentPage === 1);
+    $(".next-page").toggleClass("disable", currentPage === totalPages);
+    return true;
+  }
+
+  $(".pagination").append(
+    $("<li>").addClass("page-item").addClass("previous-page").append($("<a>").addClass("page-link").attr({href: "javascript:void(0)"}).text("←")),
+    $("<li>").addClass("page-item").addClass("next-page").append($("<a>").addClass("page-link").attr({href: "javascript:void(0)"}).text("→"))
+  );
+
+
+  $(".card-content").show();
+  showPage(1);
+
+  $(document).on("click", ".pagination li.current-page:not(.active)", function(){
+    return showPage(+$(this).text());
+  });
+
+  $(".next-page").on("click", function(){
+    return showPage(currentPage + 1);
+  });
+
+  $(".previous-page").on("click", function(){
+    return showPage(currentPage - 1);
+  });
+});
+
+
+    </script>
+    <!-- END OF PAGINATION CODE -->
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
