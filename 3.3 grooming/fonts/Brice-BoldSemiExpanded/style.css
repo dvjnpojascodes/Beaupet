@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Brice';
-    src: local('Brice BoldSemiExpanded'), local('Brice-BoldSemiExpanded'),
-        url('Brice-BoldSemiExpanded.woff2') format('woff2'),
-        url('Brice-BoldSemiExpanded.woff') format('woff'),
-        url('Brice-BoldSemiExpanded.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-  }
