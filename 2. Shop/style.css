@@ -1,0 +1,276 @@
+body
+{
+	background-color: rgb(255, 243, 227);
+  font-family: Montserrat, sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+/* NAVBAR */
+		.navbar li
+		{
+			font-weight: bold;
+
+		}
+
+		.navbar-brand img{
+			width: 60px;
+			height: auto;
+			margin: 0 2px 0 100px;
+		}
+
+		.search{
+			background-color: rgb(240, 226, 223);
+			border-style: none;
+
+			border-radius: 20px 0px 0px 20px;
+			height: 27px;
+		}
+		.btn-search{
+		  padding: 3px;
+		  border-radius: 0px 20px 20px 0px;
+		  height: 27px;
+		  width: 50px;
+		  background-color: rgb(240, 226, 223);
+		  margin-left: -10px;
+		}
+		.nav-icons :hover
+		{	
+			color: black;
+			cursor: pointer;
+		}
+
+
+		.dropdown:hover>.dropdown-menu
+		{
+		  display: block;
+		}
+/* NAVBAR */
+}
+.d-flex{
+	margin-right: 3px;
+	margin-left: 3px;
+}
+.pet-supplies{
+	margin-top: 5em;
+}
+.pet2
+{
+	left: 10px;
+}
+.container-fluid-page{
+	margin-right: 70px;
+	margin-left: 170px;
+}
+
+p{
+	font-size: 25px;
+	color: red;
+}
+del{
+	font-size: 20px;
+}
+.nav-item{
+	font-family: 'Montserrat', sans-serif;
+}
+select{
+	border: 1px solid black;
+	padding: 5px;
+	width: 305px;
+}
+select:focus{
+	outline: none;
+}
+img{
+	height: 205px;
+	width: 305px;
+} 
+img:hover{
+	border-radius: 20px;
+	border: solid 5px #ed9f0c;
+	cursor: pointer;
+}
+.container-page{
+margin-right: 150px; 
+margin-left:180px;
+}
+.page-btn span{
+	display: inline-block;
+	border: 1px solid black;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	background-color: white;
+	margin: 1px;
+	margin-top: 25px;
+}
+.page-btn span:hover{
+	background-color: black;
+	color: white;
+}
+/* Pagination */
+
+/* Card Pagination  */
+.container{
+    width: 100vw;
+  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  
+  .card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 90px;
+  }
+  
+  .card{
+    position: relative;
+    max-width: 325px;
+    width: 300px;
+    height: auto;
+    margin: 25px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff3e3;
+    border: none;
+    margin-bottom: 2em;
+  }
+
+
+  .card-image{
+    max-height: 500px;
+  }
+  
+  .card-image img{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-info{
+    position: relative;
+    top: .3em;
+    color: #222;
+    padding: 10px 0;
+    margin-left: 10px;
+  }
+  
+  .card-info h6{
+    font-size: 1.1em;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+  
+  .card-info p{
+    font-size: .9em;
+    line-height: 6px;
+  }
+  
+  .pagination{
+    text-align: center;
+    user-select: none;
+    position: relative;
+  
+}
+
+.pagination li{
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+  }
+  
+  .pagination li a{
+    color: rgb(63, 32, 32);
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 15px;
+  }
+
+  
+  .previous-page, .next-page{
+    width: 40px;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .previous-page:hover{
+    transform: translateX(-5px);
+  }
+  
+  .next-page:hover{
+    transform: translateX(5px);
+  }
+
+  .page-item .active.page-link {
+    border: 1 px solid black;
+ }
+  
+  .current-page, .dots{
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+
+  .disable{
+    background: #ccc;
+  }
+
+
+ul li {
+  list-style-type: none;
+}
+
+/*---------------footer---------------------*/
+
+	.footer-basic {
+		padding: 30px 0;
+		background-color: rgb(242, 219, 188);
+		color:#1e140d;
+		text-align: center;
+	}
+
+	.footer-basic .social {
+		text-align:center;
+		padding-bottom:25px;
+	}
+
+	.footer-basic .social > a {
+		font-size:24px;
+		width:60px;
+		height:60px;
+		line-height:60px;
+		display:inline-block;
+		border-radius:50%;
+		border:1px solid #1e140d;
+		margin:0 8px;
+		color:inherit;
+		opacity:0.75;
+	}
+	.social-links a
+	{
+		text-align: center;
+		font-size: 20px;
+		margin:50px;
+		color: #1e140d;
+	}
+
+	.footer-basic .social > a:hover {
+	  opacity:0.9;
+	}
+
+	.footer-basic .copyright {
+	  text-align:center;
+	  font-size:18px;
+
+	  color:#aaa;
+	}
+/*---------------footer---------------------*/
